@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pkl
+*.index
+*.db
+.venv/
+venv/
+*.pyc
+app/
