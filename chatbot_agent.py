@@ -338,11 +338,11 @@ def run_chatbot_interface():
     for msg in st.session_state.messages:
         with st.chat_message(msg["role"], avatar="💡" if msg["role"] == "assistant" else "👤"):
             st.markdown(msg["content"])
-            if msg.get("kb_source"):
-                st.markdown(
-                    f'<span class="kb-source">📚 {msg["kb_source"]}</span>',
-                    unsafe_allow_html=True
-                )
+            # if msg.get("kb_source"):
+            #     st.markdown(
+            #         f'<span class="kb-source">📚 {msg["kb_source"]}</span>',
+            #         unsafe_allow_html=True
+            #     )
 
     # ── Greeting on first load ────────────────────────────────────────────────────
     if not st.session_state.messages:
