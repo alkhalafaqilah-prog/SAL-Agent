@@ -48,7 +48,8 @@ Follow these steps to set up the environment and install all necessary packages 
 ---
 2. **Install related libraries:**
 
-```pip install streamlit langchain langchain-openai faiss-cpu sentence-transformers sqlalchemy python-dotenv numpy```
+```bash
+   pip install streamlit langchain langchain-openai faiss-cpu sentence-transformers sqlalchemy python-dotenv numpy
 
 ---
 
@@ -56,14 +57,18 @@ Follow these steps to set up the environment and install all necessary packages 
 
 include the following keys: 
 
-`OPENAI_API_KEY=`
-`OPENROUTER_API_KEY=`
-`SENDER_NAME=`
-`SENDER_TITLE=`
-`SENDER_COMPANT=`
-`SENDER_EMAIL=`
-`GMAIL_USER=`
-`GMAIL_APP_PASSWORD=`
+```bash
+   OPENAI_API_KEY=
+   OPENROUTER_API_KEY=
+   SENDER_NAME=
+   SENDER_TITLE=
+   SENDER_COMPANT=
+   SENDER_EMAIL=
+   GMAIL_USER=
+   GMAIL_APP_PASSWORD=
 
-3. **Run the Project:**
-```streamlit run Frontend/app.py```
+---
+
+4. **Run the Project:**
+```bash
+   streamlit run Frontend/app.py
