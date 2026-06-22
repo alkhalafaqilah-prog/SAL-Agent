@@ -46,12 +46,14 @@ Follow these steps to set up the environment and install all necessary packages 
    cd SAL_Agent
 
 ---
+
 2. **Install related libraries:**
 
-```bash
-   pip install streamlit langchain langchain-openai faiss-cpu sentence-transformers sqlalchemy python-dotenv numpy
+```bash 
+pip install streamlit langchain langchain-openai faiss-cpu sentence-transformers sqlalchemy python-dotenv numpy
 
 ---
+
 
 3. **Create your own .env file:**
 
