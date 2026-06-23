@@ -68,6 +68,5 @@ include the following keys:
    SENDER_NAME=
    SENDER_TITLE=
    SENDER_COMPANT=
-   SENDER_EMAIL=
    GMAIL_USER=
    GMAIL_APP_PASSWORD=

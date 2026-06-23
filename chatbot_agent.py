@@ -48,7 +48,6 @@ OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY")
 SENDER_NAME     = os.getenv("SENDER_NAME",    "Alexander Krstich")
 SENDER_TITLE    = os.getenv("SENDER_TITLE",   "Technical Project Manager")
 SENDER_COMPANY  = os.getenv("SENDER_COMPANY", "Beam Data")
-SENDER_EMAIL    = os.getenv("SENDER_EMAIL",   "alexander@beamdata.ai")
 
 # ── Init DB ───────────────────────────────────────────────────────────────────
 init_db()
@@ -326,7 +325,7 @@ def run_chatbot_interface():
     <div class="chat-header">
     <div style="font-size:28px">💡</div>
     <div>
-        <div style="font-weight:500;font-size:16px">Beam Data Assistant</div>
+        <div style="font-weight:500;font-size:16px">SAL Agent</div>
         <div style="font-size:12px;opacity:.8">
         <span class="status-dot"></span>Online — Ask me anything about AI & data
         </div>

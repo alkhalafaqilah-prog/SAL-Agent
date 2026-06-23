@@ -156,7 +156,7 @@ def home_page():
 def about_page():
     st.subheader("About")
     st.write("**SAL Agent** is an AI-powered sales agent built for Beam Data, a Toronto-based AI and data consulting group trusted by Samsung, EY, Mars, and 30+ enterprise clients. It answers customer questions in real time using a knowledge base grounded in Beam Data's AI Hub product, services, and past project case studies, naturally captures lead information during conversation, and automatically sends a personalised follow-up email — turning every website visitor into a qualified, CRM-logged lead without manual sales effort.")
-    st.subheader("Key features:")
+    st.subheader("Key features")
     st.markdown("""
     -  Grounded answers from a RAG knowledge base (AI Hub, services & 50 past projects)
     -  Conversation memory — remembers context across the full chat 
